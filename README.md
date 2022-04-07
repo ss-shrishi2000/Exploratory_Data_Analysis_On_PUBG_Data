@@ -9,7 +9,6 @@
   **4. Prediction Model Based On Random Forests.**   <br>
   **5. Determining the Winning Percentile of All Players In The Game.**  <br>
   <br>
-  <br>
   </div>
   
   ![alt text](https://github.com/ss-shrishi2000/Exploratory_Data_Analysis_On_PUBG_Data/blob/main/pubg-pic-1.jpg)
@@ -25,7 +24,7 @@ For example, a MAE of 0.04 signifies that the average magnitude difference from 
 
 ## Models
 
-In our modeling process, we wanted to start off with a basic model to have a benchmark for more complex models. We decided to try Linear Regression to see if a simple linear relationship could predict effectively for our problem.
+In our modeling process, we wanted to start off with a basic model to have a benchmark for more complex models. We tried Linear Regression to see if a simple linear relationship could predict effectively for our problem.
 
 Linear Regression becomes inaccurate when many outliers are present in the data, so the first step was to remove these. In our data analysis, we managed to identify outliers like cheaters and custom game modes which made removing these outliers easier. Many of the features we had were also heavily skewed. For example, the distribution of damage done for a player peaks at 0 and decreases as the damage done increases. After deskewing these features, we finally had our data properly formatted to run Linear Regression.
 
