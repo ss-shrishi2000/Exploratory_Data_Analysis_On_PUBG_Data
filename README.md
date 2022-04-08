@@ -18,8 +18,6 @@
 ## Loss Function
 Mean Absolute Error (MAE) measures the average magnitude of the errors in a set of predictions, without considering their direction.
 
-loss_function
-
 For example, a MAE of 0.04 signifies that the average magnitude difference from the prediction to the true value is 0.04. In context of our dataset, this would typically mean that the average error is off by 4 placements. This loss functions provides an appropriate measure of our model prediction accuracy.
 
 ## Models
