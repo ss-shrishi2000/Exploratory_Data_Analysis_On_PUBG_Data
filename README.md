@@ -1,6 +1,6 @@
 # PUBG Finish Placement Prediction Data
 
-<h3 align = "left" >A prediction model built with the help of Explanatory Analysis to be used for predicting the final placement of a list of PUBG Players using their previous game statistics.  <br> </h3>
+<h3 align = "left" >A prediction model built with the help of Exploratory Analysis to be used for predicting the final placement of a list of PUBG Players using their previous game statistics.  <br> </h3>
   <div align = "left" padding = 100px fontsize=40px color="blue" >
   
  **1. Exploratory Data Analysis On the dataset.**   <br> 
