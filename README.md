@@ -24,7 +24,8 @@ For example, a MAE of 0.04 signifies that the average magnitude difference from 
 
 In our modeling process, we wanted to start off with a basic model to have a benchmark for more complex models. We tried Linear Regression to see if a simple linear relationship could predict effectively for our problem.
 
-Linear Regression becomes inaccurate when many outliers are present in the data, so the first step was to remove these. In our data analysis, we managed to identify outliers like cheaters and custom game modes which made removing these outliers easier. Many of the features we had were also heavily skewed. For example, the distribution of damage done for a player peaks at 0 and decreases as the damage done increases. After deskewing these features, we finally had our data properly formatted to run Linear Regression.
+Linear Regression becomes inaccurate when many outliers are present in the data, so the first step was to remove these. In our data analysis, we managed to identify outliers like cheaters and custom game modes which made removing these outliers easier. Many of the features we had were also heavily skewed. For example, the distribution of damage done for a player peaks at 0 and decreases as the damage done increases. 
+After deskewing these features, we finally had our data properly formatted to run Linear Regression.
 
 Training on the whole dataset, we were able to get a public score of 0.0445. Although this model did not perform very well, we still wanted to see what features the model valued when making predictions. From the below chart, we can see that boosts and heals were the most important features. Three of the top six most important features were also created by us in the feature engineering step, reinforcing that our feature engineering was providing value.
   
